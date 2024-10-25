@@ -1,4 +1,4 @@
-# Unit converter by @rdhudson
+# Unit converter by @alforain
 # Completed as part of a GCSE computer science course
 
 import time
@@ -40,8 +40,8 @@ def restart_program():
 
 # Function to ask if the user wants to quit or run another calculation
 def ask_to_continue():
-    choice = input("\nDo you want to quit the scrpit or run another calculation?\n(q to quit / any other key to restart): ")
-    if choice.lower() == 'q':
+    choice = input("\nDo you want to quit the script or run another calculation?\n(q to quit / any other key to restart): ")
+    if choice() == 'q':
         print("Quitting the script...")
         time.sleep(3)
         sys.exit()

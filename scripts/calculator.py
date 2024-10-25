@@ -1,4 +1,4 @@
-# Basic Calculator by @rdhudson
+# Basic Calculator by @alforain
 # Completed as part of a GCSE computer science course
 
 import re
